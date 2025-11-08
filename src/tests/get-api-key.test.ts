@@ -9,6 +9,6 @@ describe("getAPIKey", () => {
     })
 
     expect(apiKey).toBeTruthy()
-    expect(apiKey).toBe(mockApiKey.split(" ")[0])
+    expect(apiKey).toBe(mockApiKey.split(" ")[1])
   })
 })
